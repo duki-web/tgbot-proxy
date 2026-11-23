@@ -1,0 +1,10 @@
+name = "tgbot-proxy"
+main = "src/worker.js"
+compatibility_date = "2024-09-01"
+
+# 可选配置 (取消注释并修改后生效):
+# [vars]
+# WHITELIST_ENABLED = "true"                  # 白名单总开关, "false" 关闭 (名单保留)
+# ALLOWED_TOKENS = "123456:AAAxxx, 789012"    # Bot Token 白名单, 支持仅数字 ID
+# SECRET_PATH = "my-secret-path"              # 密钥路径前缀
+# TG_API = "https://api.telegram.org"         # 上游地址, 默认官方; 可指向自建 bot-api-server
